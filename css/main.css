@@ -1,0 +1,148 @@
+.main {
+    background: #F0EBE5;
+   
+}
+
+.body {
+    background: white;
+    padding:   12px !important;
+    
+}
+
+.title {
+    margin-bottom: 24px;    
+
+}
+.title-text {
+    font-size: 2.4rem;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #c0bcb7 ;
+    color: var(--red-color);
+
+}
+.content {
+
+
+}
+.content-item {
+
+
+}
+.content-heading {
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 900 !important;
+
+}
+.content-text {
+    font-size: 1.4rem;
+    font-weight: 400;
+
+}
+.content-text p {
+    margin-bottom: 8px;
+}
+.content-sub {
+
+
+}
+.content-sub {
+
+
+}
+
+
+.contact {
+
+}
+.contact-heading {
+    margin-bottom: 36px;
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.contact-list {
+
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.contact-icon {
+    margin-right: 8px;
+    font-size: 1.6rem;
+    color: var(--red-color);
+}
+.contact-text {
+    display: flex;
+    font-size: 1.4rem;
+}
+.contact-text b {
+    margin-right: 4px;
+}
+.message-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+
+}
+.message-title span {
+    margin-left: 4px;
+    color: #DF280A;
+}
+.message-input {
+
+}
+.message-input textarea {
+    min-height: 40px;
+    height: 90px;
+    padding: 8px;
+    max-width: 100%;
+}
+.message-input-item {
+    height: 36px;
+    border: 1px solid #e1e1e1;
+    padding-left: 8px;
+    width: 100%;
+    outline: none;
+    font-size: 1.4rem;
+    border-radius: 4px;
+}
+.message-input-item::placeholder {
+    font-size: 1.4rem;
+}
+.message-input-item:focus {
+    border: #f17a00 solid 1px;
+}
+.send-btn {
+    margin-top: 32px;
+}
+.send-btn-item {
+    padding: 6px 54px;
+    background: #EB7701;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.send-btn-item:hover {
+    opacity: 0.6;
+}
+
+
+.map {
+    margin-top: 50px;
+}
+.map-item iframe{
+    width: 100% !important;
+}
+
+.email-alert {
+    display: none;
+    color: var(--red-color);
+
+}
+.name-alert {
+    display: none;
+    color: var(--red-color);
+}

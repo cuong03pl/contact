@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html { 
+    /* 10px = 62.5% */
+    font-size: 62.5%; 
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    }
+
+:root {
+    --red-color: #c21d1b ;
+    --text-color: #212121;
+}
+
+h1, h2 {
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+.no-flex {
+    display: block ;
+}
+.pb20 {
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    
+}
